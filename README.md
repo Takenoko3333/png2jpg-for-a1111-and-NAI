@@ -14,7 +14,7 @@ JPEG画像は元画像同様にAutomatic1111のPNG Infoから情報を読み込�
 PNG画像に格納されているメタデータをJPEGに格納することができます。  
 元画像のメタデータはJPEG画像のExifコメントに格納されます。  
 NovelAIやAutomatic1111に情報を読み込ませることはできませんが、Automatic1111のPNG InfoやWindowsのエクスプローラ等で情報を参照することが可能です。  
-[jpg2png-for-NAI]([https://github.com/Takenoko3333/jpg2png-for-NAI])を使用することでNovelAIやAutomatic1111で取り込み可能なPNG画像に再変換することができます。
+[jpg2png-for-NAI](https://github.com/Takenoko3333/jpg2png-for-NAI)を使用することでNovelAIやAutomatic1111で取り込み可能なPNG画像に再変換することができます。
 
 ## 前提
 Python環境
