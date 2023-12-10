@@ -1,4 +1,4 @@
-# ping2jpg-for-a1111-and-NAI
+# png2jpg-for-a1111-and-NAI
 
 ## リリースノート
 2023/12/08 初版リリース。  
