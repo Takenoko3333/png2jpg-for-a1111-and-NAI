@@ -2,7 +2,7 @@
 
 ## リリースノート
 2023/12/08 初版リリース。  
-2023/12/10 Automatic1111生成画像を変換した場合にプロンプト冒頭に"parameters: "が混入していた問題を修正。既に変換した画像は別途配布の"jpg2jpg-bugfix-metadata"で一括修正できます。  
+2023/12/10 Automatic1111生成画像を変換した場合にプロンプト冒頭に"parameters: "が混入していた問題を修正。既に変換した画像は別途配布の[jpg2jpg-bugfix-metadata](https://github.com/Takenoko3333/jpg2jpg-bugfix-metadata)で一括修正できます。  
 
 ## 説明
 ### 1. Automatic1111生成画像の変換について
