@@ -8,8 +8,6 @@ import piexif
 import piexif.helper
 from PIL import Image, PngImagePlugin
 from datetime import datetime
-import win32file
-import win32con
 from pywintypes import Time
 
 # Windowsの場合
