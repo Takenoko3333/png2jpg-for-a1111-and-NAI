@@ -17,6 +17,11 @@ PNG画像に格納されているメタデータをJPEGに格納することが�
 NovelAIやAutomatic1111に情報を読み込ませることはできませんが、Automatic1111のPNG InfoやWindowsのエクスプローラ等で情報を参照することが可能です。  
 [jpg2png-for-NAI](https://github.com/Takenoko3333/jpg2png-for-NAI)を使用することでNovelAIやAutomatic1111で取り込み可能なPNG画像に再変換することができます。
 
+### 3. 日付情報について
+元画像の日付情報を変換後の画像に引き継ぎます。  
+Windows: 更新日時, 作成日時  
+Mac, Linux: 更新日時
+
 ## 前提
 Python環境
 
