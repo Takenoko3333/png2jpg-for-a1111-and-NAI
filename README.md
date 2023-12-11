@@ -1,8 +1,9 @@
 # png2jpg-for-a1111-and-NAI
 
 ## リリースノート
-2023/12/08 初版リリース。  
-2023/12/10 Automatic1111生成画像を変換した場合にプロンプト冒頭に"parameters: "が混入していた問題を修正。既に変換した画像は別途配布の[jpg2jpg-bugfix-metadata](https://github.com/Takenoko3333/jpg2jpg-bugfix-metadata)で一括修正できます。  
+* 2023/12/08 初版リリース。  
+* 2023/12/10 Automatic1111生成画像を変換した場合にプロンプト冒頭に"parameters: "が混入していた問題を修正。既に変換した画像は別途配布の[jpg2jpg-bugfix-metadata](https://github.com/Takenoko3333/jpg2jpg-bugfix-metadata)で一括修正できます。  
+* 2023/12/11 日付情報の維持に対応。Windowsの場合は更新日時と作成日時、Mac, Linuxの場合は更新日時が変換後の画像に引き継がれます。
 
 ## 説明
 ### 1. Automatic1111生成画像の変換について
@@ -26,6 +27,10 @@ pip install pillow
 
 * piexif  
 pip install piexif
+
+Windowsの場合  
+* pywin32  
+pip install pywin32
 
 ## 使い方
 1. inputsフォルダに変換したいPNG画像を入れます。  
