@@ -57,9 +57,13 @@ pip install pywin32
 
 # 変更履歴
 
-## [1.1.1] - 2023-12-17
+## [1.1.2] - 2023-12-17
 ### 変更
-- README.md修正。
+- README.mdの更新。
+
+## [1.1.1] - 2023-12-12
+### 変更・修正
+- バグ修正及びREADME.mdの更新
 
 ## [1.1.0] - 2023-12-12
 ### 追加
@@ -137,9 +141,13 @@ pip install pywin32
 
 # Change log
 
-## [1.1.1] - 2023-12-17
+## [1.1.2] - 2023-12-17
 ### Changed
-- README.md fix.
+- Update README.md
+
+## [1.1.1] - 2023-12-12
+### Fixed & Changed
+- Bug Fixes and Update README.md
 
 ## [1.1.0] - 2023-12-12
 ### Added
