@@ -1,5 +1,5 @@
 # png2jpg-for-a1111-and-NAI
-[日本語](#日本語) | [English](#en)
+[日本語](#日本語) | [English](#english)
 
 # 日本語
 
@@ -20,9 +20,11 @@
 - Windows: 更新日時, 作成日時  
 - Mac, Linux: 更新日時
 <br><br>
+
 # 前提
 Python3環境
 <br><br>
+
 # 準備
 以下のライブラリを使用するため、入っていない場合はインストールします。
 - PIL  
@@ -47,10 +49,12 @@ pip install pywin32
 2. png2jpg.batをダブルクリックします。コマンドラインが起動します。  
 3. outputsフォルダにJPEG画像が保存されます。コマンドラインが閉じます。
 <br><br>
+
 # 設定変更等
 - JPEG品質の初期設定は80です。変更したい場合はpng2jpg.py内のJPEG_QUALITYを編集してください。  
 - 処理完了後にコマンドラインを閉じないようにしたい場合はpng2jpg.bat内の@REM pauseのコメントアウトを外してください。
 <br><br>
+
 # 変更履歴
 
 ## [1.1.1] - 2023-12-17
@@ -71,11 +75,13 @@ pip install pywin32
 ### 追加
 - Megaにてpng2jpg改として初版リリース。
 <br><br>
+
 # ライセンス
 Copyright © 2023 Takenoko  
 Released under the [MIT](https://opensource.org/licenses/mit-license.php) license.
-<br><br>
-# en
+<br><br><br>
+
+# English
 
 # Description
 ## 1. Conversion of Automatic1111 generated images
@@ -94,9 +100,11 @@ The date information of the original image will be transferred to the converted 
 - Windows: Modified date, Created date  
 - Mac, Linux: Modified date
 <br><br>
+
 # Assumptions
 Python3 environment
 <br><br>
+
 # Preparation
 The following libraries are used, so install them if they are not included.
 - PIL  
@@ -121,13 +129,15 @@ pip install pywin32
 2. Double-click on png2jpg.bat. A command line will be launched.
 3. JPEG images will be saved in the outputs folder. The command line will close.
 <br><br>
+
 # Change settings, etc.
 - The default JPEG quality setting is 80. If you want to change it, edit JPEG_QUALITY in png2jpg.py.  
 - If you do not want to close the command line after processing is complete, uncomment @REM pause in png2jpg.bat.
 <br><br>
+
 # Change log
 
-## [1.1.1] - 2023-12-16
+## [1.1.1] - 2023-12-17
 ### Changed
 - README.md fix.
 
@@ -145,6 +155,7 @@ pip install pywin32
 ### Added
 - First released on Mega as png2jpg modification.
 <br><br>
+
 # License
 Copyright © 2023 Takenoko  
 Released under the [MIT](https://opensource.org/licenses/mit-license.php) license.
